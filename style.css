@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+body,
+h1,
+p {
+  padding: 0;
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  background-color: rgb(33, 33, 33);
+  margin: 20px;
+}
+.body-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(33, 33, 33);
+}
+
+.header-wrapper {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.intro-container {
+  display: flex;
+  margin-top: 75px;
+}
+
+.intro-text-wrapper {
+  margin-right: 10px;
+}
+
+.hello {
+  font-size: 40px;
+  font-weight: 700;
+  color: aquamarine;
+}
+
+.hello2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(127, 255, 212, 0.87);
+}
+.intro-text {
+  color: rgba(255, 255, 255, 0.699);
+  font-size: 20px;
+  padding-top: 10px;
+  line-height: 1.4;
+}
+
+.video1 {
+  min-width: 260px;
+  width: 40vw;
+  border-radius: 20%;
+}
+.exp-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.exp-period {
+  font-size: 15px;
+}
+
+.exp-section {
+  width: 24vh;
+}
+
+.exp-h {
+  border-top: white 1px solid;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.exp-title {
+  color: rgb(241, 239, 239);
+  padding-top: 10px;
+}
+
+.exp-subtitle {
+  color: rgb(241, 239, 239);
+}
+
+.exp-desc {
+  color: rgb(197, 201, 201);
+}
+
+.exp-period {
+  color: gainsboro;
+}
+
+.exp-subtitle {
+  font-weight: 300;
+}
+
+.section-header {
+  text-align: center;
+  color: aquamarine;
+  border: rgba(127, 255, 212, 0.548) 1px solid;
+  margin: 100px 0px 50px 0px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+}
+
+.project-image {
+  border-radius: 10px;
+  width: 50vw;
+  max-width: 550px;
+}
+
+.project-title {
+  font-size: 20px;
+  color: white;
+}
+
+.project-desc {
+  height: 350px;
+  width: 200px;
+  width: 40%;
+  line-height: 1.4;
+  color: rgb(197, 201, 201);
+}
+
+.project-p {
+  margin-top: 20px;
+}
+.experiments-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+}
+
+input {
+  font-family: "Inconsolata", monospace;
+}
+
+.submit-button {
+  background: none;
+  color: aquamarine;
+}
+
+@media only screen and (max-width: 925px) {
+  /* ADD LATER */
+}
