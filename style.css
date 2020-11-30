@@ -70,7 +70,6 @@ header {
 .video1 {
   min-width: 260px;
   width: 40vw;
-  border-radius: 20%;
 }
 .exp-container {
   display: flex;
