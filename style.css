@@ -15,7 +15,7 @@ body {
   margin: 20px;
 }
 .body-wrapper {
-  max-width: 1200px;
+  max-width: 1050px;
   margin: auto;
 }
 header {
@@ -47,18 +47,21 @@ header {
 
 .intro-text-wrapper {
   margin-right: 10px;
+  width: 800px;
 }
 
 .hello {
   font-size: 40px;
   font-weight: 700;
   color: aquamarine;
+  padding-top: 25px;
 }
 
 .hello2 {
   font-size: 25px;
   font-weight: 500;
   color: rgba(127, 255, 212, 0.87);
+  widows: 2;
 }
 .intro-text {
   color: rgba(255, 255, 255, 0.699);
