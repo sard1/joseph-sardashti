@@ -114,6 +114,10 @@ header {
   font-weight: 300;
 }
 
+.emp {
+  font-weight: 900;
+}
+
 .section-header {
   text-align: center;
   color: aquamarine;
@@ -124,7 +128,7 @@ header {
 .project-container {
   display: flex;
   justify-content: space-around;
-  padding: 10px 0px 10px 0px;
+  padding: 30px 0px 40px 0px;
 }
 
 .project-image {
