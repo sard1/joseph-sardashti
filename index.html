@@ -12,10 +12,10 @@
   <body>
     <header>
       <div class="header-wrapper">
-        <a class="nav-link" href="#main">main</a>
-        <a class="nav-link" href="#experience">about me</a>
-        <a class="nav-link" href="#projects">projects</a>
-        <a class="nav-link" href="#experiments">experiments</a>
+        <a class="nav-link" href="#main">+main</a>
+        <a class="nav-link" href="#experience">+about me</a>
+        <a class="nav-link" href="#projects">+projects</a>
+        <a class="nav-link" href="#experiments">+experiments</a>
       </div>
     </header>
     <div class="body-wrapper">
@@ -30,11 +30,14 @@
             I love to learn and apply new technologies in work and leisure. My
             interdisciplinary background and recent completion of the Grand
             Circus Front-End Bootcamp has armed me with the tools to be a
-            valuable full-stack developer for your organization. Feel free to
-            visit my
-            <a class="nav-link" href="https://www.linkedin.com/in/jsardashti/">LinkedIn</a> to get in contact, check out my projects in greater detail on
-            <a class="nav-link" href="https://github.com/sard1">GitHub</a>, and see what i'm up to sonically on
-            <a class="nav-link" href="https://soundcloud.com/sardashhh">Soundcloud</a>. This site is a work in progress, and will be updated often(ish)!
+            valuable front-end developer for your organization. 
+            <p class="intro-text">
+              Feel free to
+              visit my
+              <a class="nav-link" href="https://www.linkedin.com/in/jsardashti/">LinkedIn</a> to get in contact, check out my projects in greater detail on
+              <a class="nav-link" href="https://github.com/sard1">GitHub</a>, and see what i'm up to sonically on
+              <a class="nav-link" href="https://soundcloud.com/sardashhh">Soundcloud</a>. This site is a work in progress, and will be updated often(ish)!
+            </p> 
           </p>
         </div>
         <div class="vid">
@@ -92,7 +95,7 @@
           <dl>
             <dt class="exp-title">+ JavaScript</dt>
             <dt class="exp-title">+ Angular</dt>
-            <dt class="exp-title">+ Node.js</dt>
+            <dt class="exp-title">+ Node.js/Express</dt>
             <dt class="exp-title">+ HTML</dt>
             <dt class="exp-title">+ CSS, SCSS</dt>
             <dt class="exp-title">+ Web API Creation</dt>
@@ -107,7 +110,7 @@
           <dl>
             <dt class="exp-title">Front-End Web Development</dt>
             <dt class="exp-title">UI/UX/Responsive Design</dt>
-            <dt class="exp-title">Agile Application Development</dt>
+            <dt class="exp-title">Web Audio Design</dt>
             <dt class="exp-title">Project Leadership</dt>
             <dt class="exp-title">Remote Collaboration</dt>
             <dt class="exp-title">Music/Audio Production</dt>
@@ -117,17 +120,18 @@
       </section>
       <section class="projects" id="projects">
         <h2 class="section-header">recent web projects</h2>
-        <div class="project-container">
+        <div class="project-container proj-1">
           <div class="image-container">
-            <img class="project-image" src="assets/boutique_gan_desktop.png" alt="boutique-gan-desktop." />
+            <img class="project-image" src="assets/Nasynth_1.png" alt="">
           </div>
           <div class="project-desc">
-            <a href="https://sard1.github.io/Boutique-GAN/" class="project-title">boutique gan</a>
-            <p class="project-p">For our first project in the GC Bootcamp, we decided to build a Point-Of-Sale system for a conceptual streetwear storefront. The shoes for sale are developed from 3 different base images, all "remixed" using the <a class="nav-link" href="https://artbreeder.com/browse">Artbreeder</a> General Adversarial Network, or GAN. The store features a full functioning cart and checkout system, custom CSS animations, and scales well on mobile devices, though the ideal execution would be on an ipad in the middle of an unstaffed store. Customers would self-checkout and use the honor system...we are still working out the details there.</p>
-            <p>Tools used: <span class="nav-link">HTML/CSS/Javascript</span></p>
+            <a class="project-title" href="http://nasynth.surge.sh/home">NASYNTH</a>
+            <p class="project-p">Our final Bootcamp project utilizes APIs and Javascript libraries to create an app for education, relaxation, and, my personal touch: generative soundscapes. NASYNTH provides the user full navigation of the 5-year archive <span class="nav-link">NASA Astronomy Picture of the Day</span>, giving you beautiful views and detailed explanations in desktop or mobile views. The bottom tray holds a 4-oscillator ambient soundscape generator, built with <a class="nav-link" href="https://tonejs.github.io/">Tone.js</a> and sequenced with some probability-based algorithm, built around <a href="https://github.com/tonaljs/tonal">Tonal.js</a> scales. Users can save their “patches” and load up those made by anyone else. We hope NASYNTH can serve as a tool to casually explore sound and space! Huge thank you Daniel Bouchard and Dan Tramte for your inspirational tutorials on Tone and browser-based sound generation.</p>
+            <p>Tools used: <span class="nav-link">Angular/Web Audio API/Tone.JS/HTML/CSS/Typescript</span>  </p>
           </div>
         </div>
-        <div class="project-container">
+        
+        <div class="project-container proj-2">
           <div class="project-desc">
             <a class="project-title" href="http://ng-flix.surge.sh/">*ngFlix</a>
             <p class="project-p">To demonstrate our understanding of Angular and displaying data from Web APIs, we developed a platform for searching, filtering, and saving movies to a watch another time. Users can search a massive database of films, view additional movie details by clicking on the tiles, filter and sort by multiple parameters, and store films in a separate watchlist, indicated by an icon on each tile. We focused on a clean, mobile-first, desktop-distinct interface with smooth transitions between windows and functions. We plan to expand on the app by adding watch links for any films that are available to stream for free (legally).</p>
@@ -138,44 +142,54 @@
           </div>
         </div>
       </section>
+        <div class="project-container proj-3">
+          <div class="image-container">
+            <img class="project-image" src="assets/boutique_gan_desktop.png" alt="boutique-gan-desktop." />
+          </div>
+          <div class="project-desc">
+            <a href="https://sard1.github.io/Boutique-GAN/" class="project-title">boutique gan</a>
+            <p class="project-p">For our first project in the GC Bootcamp, we decided to build a Point-Of-Sale system for a conceptual streetwear storefront. The shoes for sale are developed from 3 different base images, all "remixed" using the <a class="nav-link" href="https://artbreeder.com/browse">Artbreeder</a> General Adversarial Network, or GAN. The store features a full functioning cart and checkout system, custom CSS animations, and scales well on mobile devices, though the ideal execution would be on an ipad in the middle of an unstaffed store. Customers would self-checkout and use the honor system...we are still working out the details there.</p>
+            <p>Tools used: <span class="nav-link">HTML/CSS/Javascript</span></p>
+          </div>
+        </div>
       <section class="experiments">
         <h2 class="section-header" id="experiments">experiments</h2>
           <div class="experiments-container">
             <div class="project-desc">
               <a class="project-title" href="">cables.gl networks</a>
-              <p class="project-p">a major inspiration to my pursuit of a career in development, cables.gl showed me that I could create interesting, live-rendered art with node-based programming--all in a web browser. cables is often updated, and it doesn't require any software or experience to get started.</p>
+              <p class="project-p">a major inspiration to my pursuit of a career in development, <span class="nav-link">cables.gl</span> showed me that I could create interesting, live-rendered art with node-based programming--all in a web browser. cables is often updated, well documented, and it doesn't require any software or experience to get started.</p>
             </div>
             <div class="experiment-image">
-              <video src="assets/cables_sphere.mp4" autoplay loop muted height="300px"></video>
+              <video class="cables-video" src="assets/cables_sphere.mp4" autoplay loop muted height="300px"></video>
             </div>
           </div>
-          <div class="experiments-container">
+          <div class="experiments-container exp-2">
             <div class="experiment-image">
-              <a class="twitter-timeline" data-width="400" data-height="400" data-theme="dark" href="https://twitter.com/BoutiqueGan?ref_src=twsrc%5Etfw">Tweets by BoutiqueGan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-width="500" data-height="500" data-theme="dark" href="https://twitter.com/BoutiqueGan?ref_src=twsrc%5Etfw">Tweets by BoutiqueGan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <div class="project-desc">
               <p class="project-title">boutique gan twitter</p>
-              <p class="project-p">I started a twitter that makes daily auto-posts of new pieces I have come up with in the boutique gan collection. This is a fun way to use <a class="nav-link" href="https://artbreeder.com/browse">Artbreeder</a>  and iterate on these designs every day, on a platform I love and hate dearly.</p>
+              <p class="project-p">I started a twitter that makes daily auto-posts of new pieces I have come up with in the boutique gan collection. This is a fun way to use <a class="nav-link" href="https://artbreeder.com/browse">Artbreeder</a>  and iterate on these designs every day, on a platform I love and hate dearly. The piece "Iriqouis Plisskin" was commissioned recently as cover art for Detroit techno artist <span class="nav-link" href="">2Lanes</span> new EP, <a class="nav-link" href="https://2lanessoundsystems.bandcamp.com/album/sharp-turn-ep">"Sharp Turn"</a>. </p>
             </div>
           </div>
           <div class="experiments-container">
             <div class="project-desc">
               <p class="project-title">Equalizer Radio Show</p>
-              <p class="project-p">For the last couple of years, I have directed a late-night audio-visual event called Equalizer. We feature some of Detroit's best budding sonic talent and techno greats, matched with a state-of-the-art sound system and live-performed visuals. As an extension of the party, I curate the Equalizer Detroit radio show on UK-based <a class="nav-link"href="https://threadsradio.com/">Threads Radio</a>, featuring recordings of my inspirational artists in the area as well as my own captured live sets.</p>
+              <p class="project-p">for the last couple of years, I have directed a late-night audio-visual event called Equalizer. We feature some of Detroit's best budding sonic talent and techno greats, matched with a state-of-the-art sound system and live-performed visuals. As an extension of the party, I curate the Equalizer Detroit radio show on UK-based <a class="nav-link"href="https://threadsradio.com/">Threads Radio</a>, featuring recordings of my inspirational artists in the area as well as my own captured live sets.</p>
             </div>
-            <div class="experiment-image">
+            <div>
               <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/893236306&color=%230c8494&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/threadsradio" title="Threads" target="_blank" style="color: #cccccc; text-decoration: none;">Threads</a> · <a href="https://soundcloud.com/threadsradio/equalizer-detroit-w-sard-threadsdetroit-17-sep-20" title="Equalizer Detroit w/ Sard (Threads*DETROIT) - 17-Sep-20" target="_blank" style="color: #cccccc; text-decoration: none;">Equalizer Detroit w/ Sard (Threads*DETROIT) - 17-Sep-20</a></div>
             </div>
           </div>
       </section>
       <footer>
-        <p class="nav-link">thats the end! reach out here:</p>
-        <form action="https://formspree.io/f/moqpnnbk" method="POST">
+        <p class="ender">thats the end! reach out here:</p>
+        <form class="email-form" action="https://formspree.io/f/moqpnnbk" method="POST">
           <input type="text" name="_replyto" placeholder="your email">
-          <input name="message" id="email" placeholder="your message"></input>
+          <textarea height="30" name="message" id="email" placeholder="your message"></textarea>
           <input class="submit-button"type="submit">
         </form>
-        <p class="exp-period">(site built from scratch by joseph sardashti, 2020)</p>
+        <p class="ender pop">(site built from scratch by joseph sardashti, 2020)</p>
       </footer>
     </div>
   </body>

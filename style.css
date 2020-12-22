@@ -1,9 +1,11 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 70px;
+  padding: 0;
 }
 body,
 h1,
+header,
 p {
   padding: 0;
   margin: 0;
@@ -24,6 +26,9 @@ header {
   width: 100%;
   margin: auto;
   background-color: rgb(33, 33, 33);
+  margin-left: 0;
+  left: 0;
+  right: 0;
 }
 
 .header-wrapper {
@@ -32,7 +37,7 @@ header {
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  padding: 25px;
+  padding: 25px 0px 25px;
 }
 
 .nav-link {
@@ -126,6 +131,7 @@ header {
   color: aquamarine;
   border: rgba(127, 255, 212, 0.548) 1px solid;
   margin: 100px 0px 50px 0px;
+  padding: 5px;
 }
 
 .project-container {
@@ -159,23 +165,129 @@ header {
 .experiments-container {
   display: flex;
   justify-content: space-around;
-  padding: 10px 0px 10px 0px;
+  padding: 30px 0px 40px 0px;
 }
 
 footer {
-  padding-top: 50px;
+  padding: 10px 0px 10px;
   text-align: center;
+  background-color: rgba(127, 255, 212, 0.829);
+  height: 150px;
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.email-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.ender {
+  font-weight: 900;
+}
+
+.pop {
+  font-size: 14px;
+}
+
+.message {
+  padding: 10px;
+}
 input {
   font-family: "Inconsolata", monospace;
 }
 
 .submit-button {
   background: none;
-  color: aquamarine;
 }
 
 @media only screen and (max-width: 925px) {
-  /* ADD LATER */
+  .body-wrapper {
+    width: 90%;
+  }
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video1 {
+    width: 60vw;
+    align-items: center;
+  }
+  .intro-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+  }
+
+  .intro-text-wrapper {
+    margin-right: 0px;
+    width: 100%;
+  }
+  .proj-2 {
+    flex-direction: column-reverse;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .project-image {
+    max-width: 90%;
+    width: auto;
+  }
+  .project-desc {
+    width: 90%;
+    padding: 20px 0px 20px;
+    height: auto;
+  }
+  .exp-section {
+    margin: auto;
+    width: 90%;
+  }
+
+  .experiments-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .exp-2 {
+    flex-direction: column;
+  }
+  .experiment-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cables-video {
+    width: 90%;
+    height: auto;
+  }
+  .eq {
+    display: block;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  .exp-section {
+    width: 100%;
+    align-items: center;
+  }
+
+  .header-wrapper {
+    width: 100%;
+    padding: 10px 0px 10px;
+  }
 }
